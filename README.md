@@ -1,6 +1,7 @@
 # Revisiting the Train Loss: an Efficient Performance Estimator for Neural Architecture Search
 
-This is the code repository for our paper.
+This is the code repository for [Revisiting the Train Loss: an Efficient Performance Estimator for Neural Architecture Search
+](https://arxiv.org/abs/2006.04492).
 
 ## Requirements
 
