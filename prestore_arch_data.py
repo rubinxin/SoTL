@@ -14,7 +14,6 @@ seed = 888
 
 # all three image datasets
 dataset_list = ['cifar10-valid', 'ImageNet16-120', 'cifar100']
-# dataset_list = ['ImageNet16-120']
 
 for dataset in dataset_list:
 
@@ -108,7 +107,6 @@ for dataset in dataset_list:
                 print('missing arch info')
                 continue
 
-        # arch_indices_to_include = np.random.choice(range(len(arch_seed_all_arch)), 5, replace=False)
         arch_indices_to_include = np.random.choice(range(len(arch_seed_all_arch)), n_arch, replace=False)
 
         res = {'arch': [arch_seed_all_arch[i] for i in arch_indices_to_include],
